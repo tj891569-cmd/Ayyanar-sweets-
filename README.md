@@ -1,28 +1,20 @@
 # Ayyanar Sweets Android App
 
-Premium purple/gold Android shopping app starter based on the supplied Ayyanar Sweets UI references.
+Premium purple/gold shopping app based on the supplied Ayyanar Sweets reference design.
 
-## Open in Android Studio
-1. Extract the ZIP.
-2. Open the `AyyanarSweetsApp` folder in Android Studio.
-3. Let Gradle sync.
-4. Connect an Android phone with USB debugging enabled, or use an emulator.
-5. Run the `app` configuration.
+## Features
+- Splash/brand look, Home, Products, Product Details
+- Cart with quantity controls and local persistence
+- Checkout with Cash on Delivery / WhatsApp option UI
+- Order success screen and latest order history
+- More menu and Contact Us
+- WhatsApp and phone/map-ready links
+- No external image dependency: bundled local assets
 
-## Current working screens
-- Home
-- Products
-- Search field UI
-- Add to cart
-- Cart quantity/removal
-- Orders
-- More/menu
+## Build APK
+Open this folder in Android Studio and choose **Build > Build APK(s)**.
 
-## Next production integrations
-- Ayyanar Sweets real logo/product photos
-- Firebase Authentication
-- Firestore products/orders
-- WhatsApp ordering
-- UPI payment
-- Admin order panel
-- Real order status tracking
+Or push to GitHub and run **Actions > Build Ayyanar Sweets APK > Run workflow**. The APK will be available under the workflow Artifacts.
+
+## Package
+`com.ayyanarsweets.app`
